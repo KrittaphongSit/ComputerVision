@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+/* สไตล์สำหรับปุ่ม Home */
+.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* สีน้ำเงิน */
+    color: white; /* สีข้อความ */
+    text-decoration: none; /* ไม่มีขีดเส้นใต้ */
+    border-radius: 5px; /* โค้งมน */
+    transition: background-color 0.3s; /* เอฟเฟกต์การเปลี่ยนสี */
+}
+
+.home-button:hover {
+    background-color: #0056b3; /* สีเมื่อวางเมาส์ */
+}
