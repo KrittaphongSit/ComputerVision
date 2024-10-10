@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Vision</title>
+    <link rel="stylesheet" href="Footer.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column; /* ใช้ flex-direction: column เพื่อให้ footer อยู่ด้านล่าง */
+            min-height: 100vh; /* กำหนดความสูงขั้นต่ำเป็น 100vh */
+            margin: 0;
+        }
+
+        .link-container {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 8px; /* เพิ่มการโค้งมนให้กับมุม */
+            flex-grow: 1; /* ทำให้ link-container ขยายเต็มพื้นที่ */
+        }
+
+        .link-container a {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 20px;
+            display: block; /* ทำให้ลิงก์แต่ละลิงก์แสดงอยู่ในบรรทัดใหม่ */
+            margin: 10px 0; /* เพิ่มระยะห่างระหว่างลิงก์ */
+            padding: 10px; /* เพิ่มระยะห่างภายใน */
+            transition: background-color 0.3s; /* เพิ่มเอฟเฟกต์การเปลี่ยนสีพื้นหลัง */
+        }
+
+        .link-container a:hover {
+            color: #0056b3;
+            background-color: #e7f0ff; /* เปลี่ยนสีพื้นหลังเมื่อวางเมาส์ */
+            border-radius: 5px; /* เพิ่มการโค้งมนให้กับพื้นหลังเมื่อวางเมาส์ */
+        }
+
+        .footer-container {
+            background-color: #f8f9fa; /* สีพื้นหลัง */
+            padding: 10px; /* ระยะห่างภายใน */
+            text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+            width: 100%; /* ความกว้างเต็ม */
+            position: relative; /* ปรับตำแหน่งให้ตรงกลาง */
+        }
+    </style>
+</head>
+<body>
+    <div class="link-container">
+        <a href="/ObjectDetection.html" title="Go to Object Detection page">Object Detector</a>
+        <a href="/HandLandmarkDetection.html" title="Hand Landmarker with MediaPipe">Hand Landmarker with MediaPipe</a>
+        <a href="/FaceDetection.html" title="Face Detection">Face Detection</a>
+        <a href="/ImageClassification.html" title="Image Class ification">Image Class ification</a>
+        <a href="/ImageSegmentation.html " title="Image Segmentation">Image Segmentation</a>
+        <br>
+        <a href="/aboutus.html" title="about us">About Us</a>
+    </div>
+
+    <footer class="footer-container">
+        <div class="container">
+            <p>Web by : Krittaphong Sitthi | Chakkit Khamdi</p>
+        </div>
+    </footer>
+</body>
+</html>

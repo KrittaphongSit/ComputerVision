@@ -1,0 +1,21 @@
+/* styles.css */
+body {
+    margin: 0; /* ลบระยะห่างของ body */
+    font-family: Arial, sans-serif; /* ฟอนต์ของเว็บไซต์ */
+}
+
+.footer-container {
+    background-color: #f8f9fa; /* สีพื้นหลัง */
+    padding: 15px; /* ระยะห่างภายใน */
+    position: fixed; /* ติดที่ด้านล่าง */
+    width: 100%; /* ความกว้างเต็ม */
+    bottom: 0; /* อยู่ที่ด้านล่าง */
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+    font-size: 16px; /* ขนาดฟอนต์ */
+    color: #333; /* สีของข้อความ */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* เงาเล็กน้อย */
+}
+
+.footer-container p {
+    margin: 0; /* ลบระยะห่างของข้อความ */
+}
